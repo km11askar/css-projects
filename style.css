@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: darkgrey;
+}
+.titlebar {
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container div {
+  width: 200px;
+  color: black;
+  margin: 35px;
+  flex-basis: 15%;
+}
